@@ -1,4 +1,4 @@
-import React, { Fragment, useState, useRef } from 'react'
+import React, { Fragment, useState, useRef, useEffect } from 'react'
 import { Table, Pagination, Space, Select, Badge } from 'antd'
 import { PaginationProps } from 'antd/lib/pagination'
 import { TableProps, ColumnProps } from 'antd/lib/table'
@@ -187,10 +187,18 @@ const ArrayTablePagination: React.FC<IArrayTablePaginationProps> = (props) => {
   const pageSize = props.pageSize || 10
   const size = props.size || 'default'
   const dataSource = props.dataSource || []
-  const startIndex = (current - 1) * pageSize
-  const endIndex = startIndex + pageSize - 1
   const total = dataSource?.length || 0
   const totalPage = Math.ceil(total / pageSize)
+  // const currentPage = Math.min(current, totalPage)
+  const startIndex = (current - 1) * pageSize
+  const endIndex = startIndex + pageSize - 1
+
+  useEffect(() => {
+    if (current > totalPage) {
+      setCurrent(Math.max(totalPage, 1))
+    }
+  }, [current])
+
   const pages = Array.from(new Array(totalPage)).map((_, index) => {
     const page = index + 1
     return {
