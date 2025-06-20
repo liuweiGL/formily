@@ -1,5 +1,5 @@
-import { isFn } from '@formily/shared'
-import { autorun, batch } from '@formily/reactive'
+import { isFn } from '@formily_eastcoal/shared'
+import { autorun, batch } from '@formily_eastcoal/reactive'
 import { Form } from '../models'
 import { LifeCycleTypes } from '../types'
 import { createEffectHook } from '../shared/effective'

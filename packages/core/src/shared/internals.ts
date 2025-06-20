@@ -11,12 +11,12 @@ import {
   isNumberLike,
   clone,
   toArr,
-} from '@formily/shared'
+} from '@formily_eastcoal/shared'
 import {
   ValidatorTriggerType,
   validate,
   parseValidatorDescriptions,
-} from '@formily/validator'
+} from '@formily_eastcoal/validator'
 import {
   autorun,
   batch,
@@ -26,7 +26,7 @@ import {
   DataChange,
   reaction,
   untracked,
-} from '@formily/reactive'
+} from '@formily_eastcoal/reactive'
 import { Field, ArrayField, Form, ObjectField } from '../models'
 import {
   ISpliceArrayStateProps,

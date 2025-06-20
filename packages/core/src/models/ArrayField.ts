@@ -1,5 +1,5 @@
-import { isArr, move } from '@formily/shared'
-import { action, reaction } from '@formily/reactive'
+import { isArr, move } from '@formily_eastcoal/shared'
+import { action, reaction } from '@formily_eastcoal/reactive'
 import {
   spliceArrayState,
   exchangeArrayState,

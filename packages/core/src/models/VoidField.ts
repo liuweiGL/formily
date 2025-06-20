@@ -1,5 +1,5 @@
-import { toArr, FormPathPattern } from '@formily/shared'
-import { define, observable, batch, action } from '@formily/reactive'
+import { toArr, FormPathPattern } from '@formily_eastcoal/shared'
+import { define, observable, batch, action } from '@formily_eastcoal/reactive'
 import {
   createReactions,
   createStateSetter,

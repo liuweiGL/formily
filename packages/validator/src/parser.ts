@@ -1,4 +1,4 @@
-import { isArr, isBool, isFn, isStr } from '@formily/shared'
+import { isArr, isBool, isFn, isStr } from '@formily_eastcoal/shared'
 import {
   ValidatorDescription,
   ValidatorFunction,
