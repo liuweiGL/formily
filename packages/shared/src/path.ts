@@ -1,6 +1,3 @@
-import {
-  Path as FormPath,
-  Pattern as FormPathPattern,
-} from '@formily_eastcoal/path'
+import { Path as FormPath, Pattern as FormPathPattern } from '@formily/path'
 
 export { FormPath, FormPathPattern }

@@ -1,9 +1,4 @@
-import {
-  isObjectField,
-  GeneralField,
-  Form,
-  ObjectField,
-} from '@formily_eastcoal/core'
+import { isObjectField, GeneralField, Form, ObjectField } from '@formily/core'
 import { useField } from './useField'
 import { useForm } from './useForm'
 

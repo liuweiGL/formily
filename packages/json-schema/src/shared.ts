@@ -6,8 +6,8 @@ import {
   toArr,
   FormPath,
   isReactElement,
-} from '@formily_eastcoal/shared'
-import { isObservable, untracked } from '@formily_eastcoal/reactive'
+} from '@formily/shared'
+import { isObservable, untracked } from '@formily/reactive'
 import { Schema } from './schema'
 import { ISchema } from './types'
 

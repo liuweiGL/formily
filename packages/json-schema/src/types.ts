@@ -2,7 +2,7 @@ import {
   IGeneralFieldState,
   GeneralField,
   FormPathPattern,
-} from '@formily_eastcoal/core'
+} from '@formily/core'
 export type SchemaEnum<Message> = Array<
   | string
   | number

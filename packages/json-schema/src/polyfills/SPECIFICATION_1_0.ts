@@ -1,11 +1,5 @@
 import { registerPolyfills } from '../patches'
-import {
-  toArr,
-  isArr,
-  isStr,
-  lowerCase,
-  isValid,
-} from '@formily_eastcoal/shared'
+import { toArr, isArr, isStr, lowerCase, isValid } from '@formily/shared'
 import { ISchema } from '../types'
 
 const VOID_COMPONENTS = [

@@ -1,5 +1,5 @@
 {
-  "name": "@formily_eastcoal/reactive-react",
+  "name": "@formily/reactive-react",
   "version": "2.3.7",
   "license": "MIT",
   "main": "lib",
@@ -47,7 +47,7 @@
     "dumi": "^1.1.0-rc.8"
   },
   "dependencies": {
-    "@formily_eastcoal/reactive": "2.3.7",
+    "@formily/reactive": "2.3.7",
     "hoist-non-react-statics": "^3.3.2"
   },
   "publishConfig": {

@@ -1,4 +1,4 @@
-import { reaction } from '@formily_eastcoal/reactive'
+import { reaction } from '@formily/reactive'
 import { cleanupObjectChildren } from '../shared/internals'
 import { JSXComponent, IFieldProps, FormPathPattern } from '../types'
 import { Field } from './Field'

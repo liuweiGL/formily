@@ -1,4 +1,4 @@
-import { isFn, isValid } from '@formily_eastcoal/shared'
+import { isFn, isValid } from '@formily/shared'
 import { LifeCycle, Form } from '../models'
 import { AnyFunction } from '../types'
 import { isForm } from './checkers'

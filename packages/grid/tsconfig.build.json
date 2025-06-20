@@ -3,7 +3,7 @@
   "compilerOptions": {
     "outDir": "./lib",
     "paths": {
-      "@formily_eastcoal/*": ["packages/*", "devtools/*"]
+      "@formily/*": ["packages/*", "devtools/*"]
     },
     "declaration": true
   }

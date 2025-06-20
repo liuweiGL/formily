@@ -1,6 +1,6 @@
 import React from 'react'
 import { render, waitFor } from '@testing-library/react'
-import { createForm } from '@formily_eastcoal/core'
+import { createForm } from '@formily/core'
 import {
   FormProvider,
   ExpressionScope,

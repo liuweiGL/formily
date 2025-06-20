@@ -1,7 +1,7 @@
 import React, { Fragment, useMemo } from 'react'
-import { FormPath, isBool, isFn, isValid } from '@formily_eastcoal/shared'
-import { GeneralField } from '@formily_eastcoal/core'
-import { Schema } from '@formily_eastcoal/json-schema'
+import { FormPath, isBool, isFn, isValid } from '@formily/shared'
+import { GeneralField } from '@formily/core'
+import { Schema } from '@formily/json-schema'
 import { SchemaContext } from '../shared'
 import { IRecursionFieldProps, ReactFC } from '../types'
 import { useField, useExpressionScope } from '../hooks'
@@ -10,7 +10,7 @@ import { ArrayField } from './ArrayField'
 import { Field } from './Field'
 import { VoidField } from './VoidField'
 import { ExpressionScope } from './ExpressionScope'
-import { observable } from '@formily_eastcoal/reactive'
+import { observable } from '@formily/reactive'
 
 const useFieldProps = (schema: Schema) => {
   const scope = useExpressionScope()
