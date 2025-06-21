@@ -21,6 +21,10 @@ export const isNumberLike = (index: any): index is number =>
   isNum(index) || /^\d+$/.test(index)
 export const isObj = (val: unknown): val is object => typeof val === 'object'
 export const isRegExp = isType<RegExp>('RegExp')
+export const isReactElement = (obj: any): boolean => {
+  // react19 production 环境中没有 _owner 属性
+  return isPlainObj(obj) && '$$typeof' in obj && '_owner' in obj
+}
 
 export const isHTMLElement = (target: any): target is EventTarget => {
   return Object.prototype.toString.call(target).indexOf('HTML') > -1
